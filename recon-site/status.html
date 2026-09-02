@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Systems Status - AlderNet</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">AlderNet</span>
+      <span class="brand-sub">Alderbrook Manufacturing</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="news.html">News</a>
+      <a href="status.html" class="active">Systems Status</a>
+    </nav>
+  </div>
+</header>
+
+<div class="utility-bar">
+  <div class="header-inner">
+    <span>Logged in as Guest</span>
+    <span>Auto-refreshes every 15 minutes</span>
+  </div>
+</div>
+
+<main>
+  <h1>IT Systems Status</h1>
+  <p class="page-intro">Current status of core internal systems. For issues not listed here, contact the IT Help Desk.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>System</th>
+        <th>Hostname</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="System">Employee File Share</td>
+        <td data-label="Hostname">fs01.alderbrook.local</td>
+        <td data-label="Status"><span class="status-ok">Operational</span></td>
+      </tr>
+      <tr>
+        <td data-label="System">Email and Calendar</td>
+        <td data-label="Hostname">mail01.alderbrook.local</td>
+        <td data-label="Status"><span class="status-ok">Operational</span></td>
+      </tr>
+      <tr>
+        <td data-label="System">Time and Attendance Portal</td>
+        <td data-label="Hostname">tap.alderbrook.local</td>
+        <td data-label="Status"><span class="status-ok">Operational</span></td>
+      </tr>
+      <tr>
+        <td data-label="System">VPN Gateway</td>
+        <td data-label="Hostname">vpn.alderbrook.local</td>
+        <td data-label="Status"><span class="status-warn">Degraded performance</span></td>
+      </tr>
+      <tr>
+        <td data-label="System">Print Services</td>
+        <td data-label="Hostname">print01.alderbrook.local</td>
+        <td data-label="Status"><span class="status-ok">Operational</span></td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+<footer class="site-footer">
+  <p>Alderbrook Manufacturing internal portal. Internal use only.</p>
+  <p>Contact the IT Help Desk with access questions.</p>
+</footer>
+
+</body>
+</html>
